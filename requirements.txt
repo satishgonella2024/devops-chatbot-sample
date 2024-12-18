@@ -1,0 +1,4 @@
+transformers==4.34.0
+torch==2.0.0
+fastapi==0.95.2
+uvicorn==0.22.0

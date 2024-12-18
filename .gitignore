@@ -1,0 +1,18 @@
+# Ignore Python virtual environments
+venv/
+__pycache__/
+
+# Ignore model weights and other large binary files
+model/pytorch_model.bin
+model/tf_model.h5
+model/*.bin
+model/*.h5
+
+# If you download models dynamically, ignore entire model directory
+# and rely on huggingface_hub downloads during Docker build
+model/
+
+# Ignore other OS or IDE-specific files
+.DS_Store
+*.swp
+.idea/
